@@ -2,12 +2,11 @@
 # Web開発用.zshrc
 ########################################
 # 環境変数
-
+export NODE_PATH="$HOME/.nodebrew/current/bin/node" 
 export LANG=ja_JP.UTF-8
-export PATH=/usr/local/bin:/bin:/usr/bin:/usr/sbin:/usr/local/git/bin
+export PATH=$PATH:/usr/local/git/bin
 export PATH="$PATH:$HOME/.nodebrew/current/bin"
-export PATH="$PATH:`npm bin -g`"
-export PATH="$PATH:/usr/local/bin/svn"
+
 ########################################
 # 色を使用出来るようにする
 autoload -Uz colors
@@ -115,44 +114,7 @@ setopt extended_glob
 # ^R で履歴検索をするときに * でワイルドカードを使用出来るようにする
 # bindkey '^R' history-incremental-pattern-search-backward
 
-########################################
-# エイリアス
 
-alias la='ls -a'
-alias ll='ls -l'
-
-alias rm='rm -i'
-alias cp='cp -i'
-alias mv='mv -i'
-
-alias mkdir='mkdir -p'
-
-# sudo の後のコマンドでエイリアスを有効にする
-alias sudo='sudo '
-
-# グローバルエイリアス
-alias -g L='| less'
-alias -g G='| grep'
-
-# C で標準出力をクリップボードにコピーする
-# mollifier delta blog : http://mollifier.hatenablog.com/entry/20100317/p1
-if which pbcopy >/dev/null 2>&1 ; then
-    # Mac
-    alias -g C='| pbcopy'
-elif which xsel >/dev/null 2>&1 ; then
-    # Linux
-    alias -g C='| xsel --input --clipboard'
-elif which putclip >/dev/null 2>&1 ; then
-    # Cygwin
-    alias -g C='| putclip'
-fi
-
-cdls ()
-{
-    \cd "$@" && ls && echo && pwd
-}
-
-alias cd="cdls"
 
 
 ########################################
@@ -204,3 +166,17 @@ peco-select-history() {
 }
 zle -N peco-select-history
 bindkey '^r' peco-select-history
+
+#####################################
+# 設定ファイルの読み込み
+# refer:http://qiita.com/yu-ichiro/items/6441453321c06484bb22
+local ZSH_SETTINGS="$HOME/zsh_settings"
+function loadlib() {
+    lib=${1:?"You have to specify a library file"}
+    if [ -f "$lib" ];then #ファイルの存在を確認
+        . "$lib"
+    fi
+}
+
+loadlib $ZSH_SETTINGS/zshalias 
+
