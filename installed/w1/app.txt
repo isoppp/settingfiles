@@ -1,0 +1,80 @@
+Adobe
+Adobe Creative Cloud
+Adobe Illustrator CC 2015
+Adobe Photoshop CC 2015
+Alfred 3.app
+App Store.app
+Atom.app
+Automator.app
+Calculator.app
+Calendar.app
+Chess.app
+Cisco
+Clipy.app
+Contacts.app
+DVD Player.app
+Dashboard.app
+Dictionary.app
+DiffMerge.app
+Docker.app
+FaceTime.app
+Flux.app
+Font Book.app
+Franz.app
+FreeMan.app
+Game Center.app
+GanttProject.app
+Google Calendar.app
+Google Chrome Canary.app
+Google Chrome.app
+GoogleJapaneseInput.localized
+Image Capture.app
+IntelliJ IDEA.app
+Karabiner.app
+Kindle.app
+Kobito.app
+Launchpad.app
+MWeb.app
+Magnet.app
+Mail.app
+Maps.app
+Mapture-0.0.16.app
+McAfee Endpoint Protection for Mac.app
+Messages.app
+Microsoft Communicator.app
+Microsoft Messenger.app
+Microsoft Office 2011
+Mission Control.app
+Monosnap.app
+MySQLWorkbench.app
+Notes.app
+Oh! My Mind Mapping 2.app
+Photo Booth.app
+Photos.app
+PopClip.app
+Preview.app
+QuickTime Player.app
+Quiver.app
+ReadKit.app
+Reminders.app
+Remote Desktop Connection.app
+Safari.app
+Skitch.app
+Slack.app
+Stickies.app
+Sublime Text.app
+System Preferences.app
+TextEdit.app
+Time Machine.app
+Translate Tab.app
+Typora.app
+Utilities
+VirtualBox.app
+Visual Studio Code.app
+Vivaldi.app
+WebStorm.app
+WindowFlow.app
+Xcode.app
+iBooks.app
+iStat Menus.app
+iTunes.app
