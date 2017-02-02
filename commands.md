@@ -14,3 +14,16 @@
 git config --global user.name "isoppp"
 git config --global user.email "prog@d2deck.com"
 ```
+
+```
+git config user.name "isoppp"
+git config user.email "prog@d2deck.com"
+```
+
+### browser sync
+
+`browser-sync start --proxy "YOUR DOMAIN" --no-ghost-mode`
+`
+
+`browser-sync start --server --files "**/*"`
+
