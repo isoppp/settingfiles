@@ -20,6 +20,12 @@ git config user.name "isoppp"
 git config user.email "prog@d2deck.com"
 ```
 
+```
+git filter-branch -f --env-filter "GIT_AUTHOR_NAME='isoppp'; GIT_AUTHOR_EMAIL='prog@d2deck.com'; GIT_COMMITTER_NAME='isoppp'; GIT_COMMITTER_EMAIL='prog@d2deck.com';" HEAD 
+git config --local user.name isoppp
+git config --local user.email prog@d2deck.com
+```
+
 ### browser sync
 
 `browser-sync start --proxy "YOUR DOMAIN" --no-ghost-mode`
