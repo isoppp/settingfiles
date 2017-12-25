@@ -29,7 +29,6 @@ git config --local user.email prog@d2deck.com
 ### browser sync
 
 `browser-sync start --proxy "YOUR DOMAIN" --no-ghost-mode`
-`
 
-`browser-sync start --server --files "**/*"`
+`browser-sync start --server --directory true --files "**/*" --no-ghost-mode`
 
