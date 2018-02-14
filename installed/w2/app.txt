@@ -1,0 +1,108 @@
+Adobe Acrobat DC
+Adobe Creative Cloud
+Adobe Illustrator CC 2017
+Adobe Lightroom Classic CC
+Adobe Photoshop CC 2017
+Adobe XD CC
+Alfred 3.app
+Android File Transfer.app
+Android Studio.app
+App Store.app
+AppCleaner.app
+Atom.app
+Automator.app
+Bartender 2.app
+CSS Hat 2.app
+Calculator.app
+Calendar.app
+Chess.app
+Cisco
+Clipy.app
+Contacts.app
+DVD Player.app
+Dash.app
+Dashboard.app
+Dictionary.app
+Docker.app
+Dropbox.app
+Electric Sheep.app
+Evernote.app
+FaceTime.app
+Firefox.app
+Flux.app
+Font Book.app
+FontPrep.app
+Franz.app
+FreeMan.app
+Gapplin.app
+Genymotion Shell.app
+Genymotion.app
+Ghostlab3.app
+Google Chrome Canary.app
+Google Chrome.app
+Google Drive.app
+GoogleJapaneseInput.localized
+Image Capture.app
+Jasper.app
+JetBrains Toolbox.app
+Keynote.app
+Kobito.app
+Launchpad.app
+Lepton.app
+MAMP
+MAMP PRO
+MWeb Markdown writing,note taking,static blog Gen.appdownload
+MWeb.app
+MacDown.app
+Magnet.app
+Mail.app
+Maps.app
+Messages.app
+Microsoft Excel.app
+Microsoft OneNote.app
+Microsoft Outlook.app
+Microsoft PowerPoint.app
+Microsoft Word.app
+Mission Control.app
+Monosnap.app
+Notes.app
+Photo Booth.app
+Photos.app
+Pocket.app
+PopClip.app
+Preview.app
+QuickTime Player.app
+Quiver The Programmer's Notebook.appdownload
+Quiver.app
+Reminders.app
+Safari.app
+Siri.app
+Skitch.app
+Skype.app
+Slack.app
+SoraAnnai.app
+SourceTree.app
+Stickies.app
+Sublime Text.app
+System Preferences.app
+TextEdit.app
+Thunderbird.app
+Time Machine.app
+Todoist.app
+TogglDesktop.app
+Translate Tab.app
+Transmit.app
+Uninstall CSS Hat 2.app
+Utilities
+VirtualBox.app
+VirtualBox.pkg
+Viscosity.app
+Visual Studio Code.app
+Wireshark.app
+Xcode.app
+cd to.app
+feedly.app
+iBooks.app
+iHex.app
+iStat Menus.app
+iTunes.app
