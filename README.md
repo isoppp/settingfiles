@@ -1,3 +1,3 @@
 # settingfile
 
-設定ファイル用リポジトリ
+My Mac setting files
