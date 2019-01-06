@@ -31,6 +31,129 @@
                     ]
                 }
             ]
+        },
+        {
+            "description": "delete_forward to up arrow for Atom66",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                      "key_code": "delete_forward",
+                      "modifiers": { "optional": [ "any" ] }
+                    },
+                    "to": [
+                      {
+                        "key_code": "up_arrow"
+                      }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "device_if",
+                            "identifiers": [
+                                {
+                                    "vendor_id": 1452,
+                                    "product_id": 544
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "left_shift + delete_or_backspace to delete_forward for Atom66",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "delete_or_backspace",
+                        "modifiers": {
+                            "mandatory": [
+                                "left_shift"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "delete_forward"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "device_if",
+                            "identifiers": [
+                                {
+                                    "vendor_id": 1452,
+                                    "product_id": 544
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "Esc to grave_accent_and_tilde for atom66",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "escape",
+                        "modifiers": {
+                            "optional": ["left_shift", "right_shift"]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "grave_accent_and_tilde"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "device_if",
+                            "identifiers": [
+                                {
+                                    "vendor_id": 1452,
+                                    "product_id": 544
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "Cmd + Esc to Esc for atom66",
+            "manipulators": [
+                {
+                    "description": "Cmd + Esc to Esc",
+                    "type": "basic",
+                    "from": {
+                        "key_code": "escape",
+                        "modifiers": {
+                            "mandatory": [
+                                "command"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "escape"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "device_if",
+                            "identifiers": [
+                                {
+                                    "vendor_id": 1452,
+                                    "product_id": 544
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
