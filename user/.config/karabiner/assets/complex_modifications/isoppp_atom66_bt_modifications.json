@@ -1,0 +1,36 @@
+{
+    "title": "isoppp / modifications for Atom66",
+    "rules": [
+        {
+            "description": "up arrow to right_shift and up_arrow for Atom66",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                      "key_code": "up_arrow",
+                      "modifiers": { "optional": [ "any" ] }
+                    },
+                    "to": [
+                      {
+                        "key_code": "right_shift"
+                      }
+                    ],
+                    "to_if_alone": [
+                      { "key_code": "up_arrow" }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "device_if",
+                            "identifiers": [
+                                {
+                                    "vendor_id": 1452,
+                                    "product_id": 544
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
