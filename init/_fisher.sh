@@ -13,8 +13,6 @@ else
       fish -c fisher
   end
 
-  fisher add decors/fish-ghq
-  fisher add jethrokuan/z
-  fisher add ponko2/fish-plugin-peco
+  fish -c "fisher add decors/fish-ghq && fisher add jethrokuan/z && fisher add ponko2/fish-plugin-peco"
 end
 
