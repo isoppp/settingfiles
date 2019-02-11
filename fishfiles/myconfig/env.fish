@@ -1,4 +1,3 @@
-set -x PATH $HOME/.anyenv/bin $PATH
-set -x NDENV_ROOT $HOME/.anyenv/envs/ndenv
-set -x PATH $HOME/.anyenv/envs/ndenv/bin $PATH
-set -x PATH $NDENV_ROOT/shims $PATH
+set -x PGDATA /usr/local/var/postgres
+status --is-interactive; and source (nodenv init -|psub)
+status --is-interactive; and source (rbenv init -|psub)
