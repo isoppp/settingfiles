@@ -1,2 +1,5 @@
-alias pva "source bin/activate.fish"
-alias pvd "deactivate"
+alias pei "python -m venv .venv"
+alias pea "source .venv/bin/activate.fish"
+alias ped "deactivate"
+alias ppir "pip install -r requirements.txt"
+alias ppor "pip freeze > requirements.txt"
