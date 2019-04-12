@@ -13,6 +13,7 @@ alias g "git"
 alias ga 'git add'
 alias gaa 'git add -A' # Identical to "git add .; git add -u"
 alias gai 'git add -i'
+alias gap 'git add -p'
 alias gb 'git branch'
 alias gba 'git branch --all'
 alias gbr 'git browse'
@@ -32,6 +33,7 @@ alias gcp 'git cherry-pick'
 alias gcpa 'git cherry-pick --abort'
 alias gcpc 'git cherry-pick --continue'
 alias gd 'git diff'
+alias gds 'git diff --staged'
 # BROKEN
 # Deletes merged branches. To protect a certain branch from deletion, add
 # `| grep -v "BRANCH_TO_SAVE" |` after `grep -v "\*"`
@@ -51,6 +53,7 @@ alias grbp 'git rebase --preserve-merges'
 alias grbpd 'git rebase --preserve-merges develop'
 alias grbpm 'git rebase --preserve-merges master'
 alias grh 'git reset HEAD'
+alias grhard 'git reset --hard'
 alias grp 'git remote prune'
 alias gs 'git status -sb' # upgrade your git if -sb breaks for you. it's fun.
 alias gst 'git status'
