@@ -3,6 +3,7 @@
 ```
 git config --global user.name "isoppp"
 git config --global user.email "prog@d2deck.com"
+git config --global push.default current
 ```
 
 ```
