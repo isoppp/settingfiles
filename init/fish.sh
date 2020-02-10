@@ -18,5 +18,3 @@ else
     # echo source $fishfiles_path >> ~/.config/fish/config.fish
   fi
 fi
-
-fish $script_dir/_fisher.sh

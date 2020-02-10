@@ -18,3 +18,7 @@ git filter-branch -f --env-filter "GIT_AUTHOR_NAME='isoppp'; GIT_AUTHOR_EMAIL='p
 git config --local user.name isoppp
 git config --local user.email prog@d2deck.com
 ```
+
+### add global setting to ignore
+
+`git config --global core.excludesfile PATH`
