@@ -1,6 +1,8 @@
 ## New Mac Init Script
 
-order
+Follow following order of
+
+Mac:
 
 ```bash
 bash personal.sh
@@ -9,3 +11,7 @@ bash osx.sh
 bash fish.sh
 bash homebrew.sh
 ```
+
+Linux: TBD
+
+have to avoid using brew...
