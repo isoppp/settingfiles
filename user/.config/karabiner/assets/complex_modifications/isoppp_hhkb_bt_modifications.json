@@ -180,6 +180,39 @@
                     ]
                 }
             ]
-        }
+        },
+        {
+          "description": "Ctrl + [ to ESC for HHKB-BT",
+          "manipulators": [
+              {
+                  "description": "Ctrl + [ to ESC",
+                  "type": "basic",
+                  "from": {
+                      "key_code": "open_bracket",
+                      "modifiers": {
+                          "mandatory": [
+                              "control"
+                          ]
+                      }
+                  },
+                  "to": [
+                      {
+                          "key_code": "escape"
+                      }
+                  ],
+                  "conditions": [
+                      {
+                          "type": "device_if",
+                          "identifiers": [
+                              {
+                                  "vendor_id": 1278,
+                                  "product_id": 514
+                              }
+                          ]
+                      }
+                  ]
+              }
+          ]
+      }
     ]
 }

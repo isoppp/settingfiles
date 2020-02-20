@@ -1,0 +1,27 @@
+{
+  "title":"isoppp / all devices modifictions",
+  "rules": [
+      {
+          "description": "Shift + delete_or_backspace to delete_forward for all devices",
+          "manipulators": [
+              {
+                  "description": "Shift + delete_or_backspace to delete_forward for all devices",
+                  "type": "basic",
+                  "from": {
+                      "key_code": "delete_or_backspace",
+                      "modifiers": {
+                          "mandatory": [
+                              "left_shift"
+                          ]
+                      }
+                  },
+                  "to": [
+                      {
+                          "key_code": "delete_forward"
+                      }
+                  ]
+              }
+          ]
+      }
+  ]
+}
