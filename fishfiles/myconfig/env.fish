@@ -1,4 +1,9 @@
-set -x PGDATA /usr/local/var/postgres
-status --is-interactive; and source (nodenv init -|psub)
-status --is-interactive; and source (rbenv init -|psub)
-status --is-interactive; and source (pyenv init -|psub)
+# Linux
+set -Ux fish_user_paths $HOME/.anyenv/bin $fish_user_paths
+set -gx PATH $PATH ~/bin # tig
+set -x -U GOPATH $HOME/go
+set -gx PATH $PATH ~/go/bin # ghq
+set -gx PATH $PATH ~/.fzf/bin # fzf
+
+# Linux and Mac
+status --is-interactive; and source (anyenv init -| psub)

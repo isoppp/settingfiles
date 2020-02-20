@@ -1,3 +1,3 @@
-# settingfile
+# settingfiles
 
-My Mac setting files
+My Mac/Ubuntu setting files
