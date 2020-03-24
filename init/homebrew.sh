@@ -9,15 +9,14 @@
 if test ! $(which brew)
 then
   echo "Installing Homebrew for you."
-  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
 echo "Updating existing Homebrew packages"
 brew update
 
-myBrew=( coreutils fish fzf ghq peco pngquant nodenv rbenv pyenv "yarn --without-node" hub)
+myBrew=( coreutils fzf ghq peco pngquant hub)
 
-myCaskBrew=( qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize webpquicklook suspicious-package quicklookase qlvideo )
+myCaskBrew=( qlcolorcode qlmarkdown quicklook-json qlimagesize webpquicklook suspicious-package quicklookase qlvideo )
 
 # Run installs
 echo "Installing Homebrew packages"
@@ -34,7 +33,6 @@ done
 
 # Clean up the Cellar
 echo "Cleaning up . . . "
-brew prune
 brew cleanup
 
 echo "Homebrew install complete!"
