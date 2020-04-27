@@ -9,6 +9,8 @@ set -x ANDROID_HOME ~/Library/Android/sdk
 set -x PATH $PATH ~/Library/Application Support/JetBrains/Toolbox/apps/AndroidStudio/ch-0/192.6186006/Android Studio.app/Contents/jre/jdk/Contents/Home/bin
 set -x JAVA_HOME ~/Library/Application Support/JetBrains/Toolbox/apps/AndroidStudio/ch-0/192.6186006/Android Studio.app/Contents/jre/jdk/Contents/Home
 
+set -g fish_user_paths "/usr/local/opt/mozjpeg/bin" $fish_user_paths
+
 # Linux
 # set -Ux fish_user_paths $HOME/.anyenv/bin $fish_user_paths
 # set -Ux GOPATH $HOME/go
