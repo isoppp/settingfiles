@@ -59,3 +59,4 @@ alias gs 'git status -sb' # upgrade your git if -sb breaks for you. it's fun.
 alias gst 'git status'
 alias t 'tig'
 alias ta 'tig --all'
+alias gfgp 'git fetch && git pull'
