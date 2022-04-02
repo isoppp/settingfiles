@@ -1,10 +1,3 @@
-# Use `hub` as our git wrapper:
-#   http://defunkt.github.com/hub/
-set -x hub_path (which hub)
-if test -f $hub_path
-  alias git $hub_path
-end
-
 # NOTE: Some of these aliases depend on `hub` being installed.
 
 alias egc "vim $HOME/.gitconfig"
@@ -16,7 +9,6 @@ alias gai 'git add -i'
 alias gap 'git add -p'
 alias gb 'git branch'
 alias gba 'git branch --all'
-alias gbr 'git browse'
 alias gbrf 'git branch -r -vv | fzf'
 alias gc 'git commit'
 alias gca 'git commit -a'
@@ -60,3 +52,6 @@ alias gst 'git status'
 alias t 'tig'
 alias ta 'tig --all'
 alias gfgp 'git fetch && git pull'
+alias gph 'git push -u origin HEAD'
+alias grsoft 'git reset --soft HEAD^1'
+alias gbr 'gh browse'
