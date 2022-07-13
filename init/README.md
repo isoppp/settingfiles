@@ -1,19 +1,33 @@
-なんとなくの流れ
+## 流れ
 
 - Xcodeを裏でインストールしていく
 
 ```
-1. personal.sh
+$ cd init
+$ bash personal.sh
 
-2. install homebrew
-2. homebrew.sh
+# ...install homebrew
+$ bash homebrew.sh
 
-3. install fish via homebrew
-3. fish.sh
+# ...install fish via homebrew (`berw install fish`)
+$ bash fish.sh
 ```
 
-その他細かいメモ
+## Keyboard
 
-- 隠しファイル表示はFinderで `command + shift + .`
 - caps lockの上書きはkarabinerで行う
+- Command + Shift + Aの衝突
+  - https://intellij-support.jetbrains.com/hc/en-us/articles/360005137400-Cmd-Shift-A-hotkey-opens-Terminal-with-apropos-search-instead-of-the-Find-Action-dialog
+  - Find `Search man Page index in Terminal` in Shortcuts, Keyboard, System Setting
 
+## Finder
+
+- 隠しファイル表示は `command + shift + .`
+- enable `show path bar`
+
+## Dock
+
+Delayをなくす
+```bash
+$ defaults write com.apple.dock autohide-delay -float 0 && defaults write com.apple.dock autohide-time-modifier -float 0 && killall Dock
+```
