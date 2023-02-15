@@ -1,4 +1,6 @@
-source /usr/local/opt/asdf/asdf.fish
+
+set -x PATH $PATH /opt/homebrew/bin
+source /opt/homebrew/opt/asdf/libexec/asdf.fish
 
 # yarn
 # set -x PATH $PATH ~/.yarn/bin

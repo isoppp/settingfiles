@@ -1,5 +1,5 @@
 #myBrew=( coreutils fzf ghq peco pngquant hub)
-myBrew=( fzf gh tig tree jq jwt-cli )
+myBrew=( fzf gh tig tree jq jwt-cli asdf fish)
 #myCaskBrew=( qlcolorcode qlmarkdown quicklook-json qlimagesize webpquicklook suspicious-package quicklookase qlvideo )
 
 # Run installs
