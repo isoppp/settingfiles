@@ -29,7 +29,7 @@ alias gds 'git diff --staged'
 # BROKEN
 # Deletes merged branches. To protect a certain branch from deletion, add
 # `| grep -v "BRANCH_TO_SAVE" |` after `grep -v "\*"`
-# alias gdmb "git branch --merged | grep -v "\*" | grep -v "master" | xargs -n 1 git branch -d"
+alias gdmb 'git branch --merged | grep -v "\*" | grep -v "^\(master\|main\|develop\)" | xargs -n 1 git branch -d'
 alias gdt 'git difftool'
 alias gfa 'git fetch --all'
 alias gfas 'git fetch --all; git status'
